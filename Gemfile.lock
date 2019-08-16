@@ -1,3 +1,9 @@
+PATH
+  remote: ../rails-mini-course-sprint1-mod4-student--starter/archiver
+  specs:
+    archiver (0.1.0)
+      activerecord (>= 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +197,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  archiver!
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
@@ -214,4 +221,4 @@ RUBY VERSION
    ruby 2.6.2p47
 
 BUNDLED WITH
-   2.0.1
+   2.0.2
